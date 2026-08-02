@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.switchboard.audio/downloads/
+docs: https://docs.switchboard.audio/
+summary:
+  types: [apiKey]
+  api_key_in: [sdk-initialization]
+  model: app-credential
+schemes:
+  - name: AppCredentials
+    type: apiKey
+    description: >-
+      Switchboard SDK is initialized with an appID and appSecret pair issued per
+      application. Developers sign up for a free account to obtain the appID and
+      appSecret values, which are supplied to the SDK at initialization time
+      (SwitchboardSDK.initialize(appID, appSecret)) across all platform bindings
+      (iOS/Swift, Android/Kotlin, JavaScript, React Native, C++).
+    parameters:
+      - appID
+      - appSecret
+    obtain: Sign up for a free account, then retrieve appID/appSecret from the downloads/onboarding page.
+    sources:
+      - https://docs.switchboard.audio/downloads/
+notes: >-
+  This is a client-SDK credential model, not a hosted REST OAuth surface — there
+  is no documented OAuth2/OIDC flow or token endpoint. Credentials gate SDK
+  initialization; some audio-graph nodes are cloud-integrated and use the same
+  app credentials.

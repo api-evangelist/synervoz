@@ -1,0 +1,36 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.switchboard.audio/downloads/, https://github.com/switchboard-sdk/switchboard-sdk-ios/releases
+scheme: semver
+current_version: 3.2.4
+docs: https://docs.switchboard.audio/downloads/
+notes: >-
+  Switchboard publishes versioned SDK download bundles rather than a dated
+  narrative changelog. Versions below are the download pages surfaced on the
+  docs site; only the current release (v3.2.4) carries a confirmed public date.
+entries:
+  - version: 3.2.4
+    date: '2026-07-10'
+    highlights: Current SDK release; iOS/Android/React Native/Flutter/Web bundles.
+    url: https://docs.switchboard.audio/downloads/
+  - version: 3.2.3
+    date: null
+    url: https://docs.switchboard.audio/downloads/v3.2.3/
+  - version: 3.2.2
+    date: null
+    url: https://docs.switchboard.audio/downloads/v3.2.2/
+  - version: 3.2.1
+    date: null
+    url: https://docs.switchboard.audio/downloads/v3.2.1/
+  - version: 3.2.0
+    date: null
+    url: https://docs.switchboard.audio/downloads/v3.2.0/
+  - version: 3.1.0
+    date: null
+    url: https://docs.switchboard.audio/downloads/v3.1.0/
+  - version: 3.0.0
+    date: null
+    url: https://docs.switchboard.audio/downloads/v3.0.0/
+  - version: 2.3.1
+    date: null
+    url: https://docs.switchboard.audio/downloads/v2/

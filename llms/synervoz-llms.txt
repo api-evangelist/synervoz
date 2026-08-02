@@ -1,0 +1,1248 @@
+# Switchboard Audio SDK Docs
+
+> Switchboard Audio SDK documentation. Guides, API reference, example apps, and extension docs for iOS, Android, React Native, Flutter, macOS, and Web.
+
+- [Welcome to Switchboard](https://docs.switchboard.audio/)
+
+## aec
+
+Enable WebRTC AEC3 acoustic echo cancellation with Switchboard Audio SDK. Configuration guide, platform-specific setup for iOS and Android, and troubleshooting.
+
+- [Acoustic Echo Cancellation](https://docs.switchboard.audio/aec/): Enable WebRTC AEC3 acoustic echo cancellation with Switchboard Audio SDK. Configuration guide, platform-specific setup for iOS and Android, and troubleshooting.
+
+## api
+
+Switchboard Audio SDK API reference. C++, Swift, Kotlin, and JavaScript APIs for audio graph, nodes, audio engine, buffers, and extensions.
+
+- [API](https://docs.switchboard.audio/api/): Switchboard Audio SDK API reference. C++, Swift, Kotlin, and JavaScript APIs for audio graph, nodes, audio engine, buffers, and extensions.
+
+## audio-buffers
+
+What is an audio buffer? How buffers manage audio data in real-time processing. Covers buffer sizes, latency tradeoffs, and the Switchboard AudioBuffer API.
+
+- [Audio Buffers Explained](https://docs.switchboard.audio/audio-buffers/): What is an audio buffer? How buffers manage audio data in real-time processing. Covers buffer sizes, latency tradeoffs, and the Switchboard AudioBuffer API.
+
+## audio-engine
+
+Learn about the Switchboard SDK Audio Engine.
+
+- [Audio Engine](https://docs.switchboard.audio/audio-engine/): Learn about the Switchboard SDK Audio Engine.
+
+### android
+
+Android audio engine guide for Switchboard SDK. Covers AudioFocusRequest, audio permissions, Oboe integration, and low-latency recording configuration.
+
+- [Android Audio Engine - AudioFocus and Permissions](https://docs.switchboard.audio/audio-engine/android/): Android audio engine guide for Switchboard SDK. Covers AudioFocusRequest, audio permissions, Oboe integration, and low-latency recording configuration.
+
+### ios
+
+iOS audio engine guide for Switchboard SDK. Covers AVAudioSession configuration, echo cancellation with VoiceChat mode, Bluetooth A2DP routing, and buffer duration.
+
+- [iOS Audio Engine - AVAudioSession and Echo Cancellation](https://docs.switchboard.audio/audio-engine/ios/): iOS audio engine guide for Switchboard SDK. Covers AVAudioSession configuration, echo cancellation with VoiceChat mode, Bluetooth A2DP routing, and buffer duration.
+
+## audio-graph
+
+How Switchboard's AudioGraph connects audio processing nodes. Manage audio routing, format matching, and real-time processing workflows.
+
+- [Audio Graph](https://docs.switchboard.audio/audio-graph/): How Switchboard's AudioGraph connects audio processing nodes. Manage audio routing, format matching, and real-time processing workflows.
+
+## best-practices
+
+General
+
+- [Best Practices](https://docs.switchboard.audio/best-practices/): General
+
+## buffer-regulators
+
+Regulating audio buffers to have constant size, duration or sample rate.
+
+- [Buffer Regulators](https://docs.switchboard.audio/buffer-regulators/): Regulating audio buffers to have constant size, duration or sample rate.
+
+## codecs
+
+Encoding and decoding audio data.
+
+- [Codecs](https://docs.switchboard.audio/codecs/): Encoding and decoding audio data.
+
+## cpp-api
+
+Switchboard Audio SDK API reference for C++. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+- [C++ API](https://docs.switchboard.audio/cpp-api/): Switchboard Audio SDK API reference for C++. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+## diagnostics
+
+Learn how to play audio with the Switchboard SDK.
+
+- [Diagnostics](https://docs.switchboard.audio/diagnostics/): Learn how to play audio with the Switchboard SDK.
+
+## downloads
+
+Download Switchboard Audio SDK v3.2.4. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+- [Version 3.2.4](https://docs.switchboard.audio/downloads/): Download Switchboard Audio SDK v3.2.4. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+### v2
+
+To initialize our SDK in your project, please sign up here to receive your appID and appSecret values.
+
+- [Version 2.3.1](https://docs.switchboard.audio/downloads/v2/): To initialize our SDK in your project, please sign up here to receive your appID and appSecret values.
+
+### v3.0.0
+
+To initialize our SDK in your project, please sign up here to receive your appID and appSecret values.
+
+- [Version 3.0.0](https://docs.switchboard.audio/downloads/v3.0.0/): To initialize our SDK in your project, please sign up here to receive your appID and appSecret values.
+
+### v3.1.0
+
+Download Switchboard Audio SDK v3.1.0. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+- [Version 3.1.0](https://docs.switchboard.audio/downloads/v3.1.0/): Download Switchboard Audio SDK v3.1.0. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+### v3.2.0
+
+Download Switchboard Audio SDK v3.2.0. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+- [Version 3.2.0](https://docs.switchboard.audio/downloads/v3.2.0/): Download Switchboard Audio SDK v3.2.0. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+### v3.2.1
+
+Download Switchboard Audio SDK v3.2.1. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+- [Version 3.2.1](https://docs.switchboard.audio/downloads/v3.2.1/): Download Switchboard Audio SDK v3.2.1. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+### v3.2.2
+
+Download Switchboard Audio SDK v3.2.2. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+- [Version 3.2.2](https://docs.switchboard.audio/downloads/v3.2.2/): Download Switchboard Audio SDK v3.2.2. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+### v3.2.3
+
+Download Switchboard Audio SDK v3.2.3. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+- [Version 3.2.3](https://docs.switchboard.audio/downloads/v3.2.3/): Download Switchboard Audio SDK v3.2.3. Sign up for a free account to get your appID and appSecret. Includes iOS, Android, React Native, Flutter, and Web packages.
+
+## ducking-audio
+
+What is audio ducking and how does it work? Automatically lower music or background audio when voice is detected. Guide covers podcasting, gaming, and conferencing.
+
+- [Ducking Audio](https://docs.switchboard.audio/ducking-audio/): What is audio ducking and how does it work? Automatically lower music or background audio when voice is detected. Guide covers podcasting, gaming, and conferencing.
+
+## engines
+
+
+### manual
+
+The Manual audio engine allows you to process audio buffers on demand by calling the process action. This method is designed to be safe for use in real-time audio contexts. If your graph does not produce output, the output buffer parameter is optional. Similarly, if your graph does not require input, the input buffer parameter is also optional.
+
+- [Manual Engine](https://docs.switchboard.audio/engines/manual/): The Manual audio engine allows you to process audio buffers on demand by calling the process action. This method is designed to be safe for use in real-time audio contexts. If your graph does not produce output, the output buffer parameter is optional. Similarly, if your graph does not require input, the input buffer parameter is also optional.
+
+### offline
+
+The offline audio engine processes input audio files to generate output audio files, handling audio rendering efficiently.
+
+- [Offline Engine](https://docs.switchboard.audio/engines/offline/): The offline audio engine processes input audio files to generate output audio files, handling audio rendering efficiently.
+
+### realtime
+
+The real-time engine uses the system IO and can access the microphone and render to the device speaker.
+
+- [Realtime Engine](https://docs.switchboard.audio/engines/realtime/): The real-time engine uses the system IO and can access the microphone and render to the device speaker.
+
+### websocket
+
+The WebSocket audio engine starts a WebSocket server and processes the received audio buffer packets.
+
+- [WebSocket Engine](https://docs.switchboard.audio/engines/websocket/): The WebSocket audio engine starts a WebSocket server and processes the received audio buffer packets.
+
+## examples
+
+Applications
+
+- [Examples Overview](https://docs.switchboard.audio/examples/): Applications
+
+### audio-playback
+
+About Audio Playback
+
+- [Audio Playback](https://docs.switchboard.audio/examples/audio-playback/): About Audio Playback
+
+### audio-signal-generation
+
+About Audio Signal Generation
+
+- [Audio Signal Generation](https://docs.switchboard.audio/examples/audio-signal-generation/): About Audio Signal Generation
+
+### chorus
+
+About Chorus
+
+- [Chorus Example](https://docs.switchboard.audio/examples/chorus/): About Chorus
+
+### compressor
+
+About Compressor
+
+- [Compressor Example](https://docs.switchboard.audio/examples/compressor/): About Compressor
+
+### daw-react-native
+
+About
+
+- [Digital Audio Workstation with React Native](https://docs.switchboard.audio/examples/daw-react-native/): About
+
+### delay
+
+Build a delay (echo) audio effect with Switchboard Audio SDK. Real-time audio delay for music apps and effects processors. iOS and Android source code.
+
+- [Delay Example](https://docs.switchboard.audio/examples/delay/): Build a delay (echo) audio effect with Switchboard Audio SDK. Real-time audio delay for music apps and effects processors. iOS and Android source code.
+
+### demo-apps
+
+These demo applications are designed to help developers get started quickly with integrating the Switchboard SDK. They showcase practical implementations and offer multiple usage examples across different platforms and audio engines. Whether you're building a command-line tool, an iOS app, or an Android application, these demos serve as excellent starting points. They are also useful for exploring the capabilities of various audio engines supported by the SDK.
+
+- [Demo Apps](https://docs.switchboard.audio/examples/demo-apps/): These demo applications are designed to help developers get started quickly with integrating the Switchboard SDK. They showcase practical implementations and offer multiple usage examples across different platforms and audio engines. Whether you're building a command-line tool, an iOS app, or an Android application, these demos serve as excellent starting points. They are also useful for exploring the capabilities of various audio engines supported by the SDK.
+
+### dj-app
+
+About the DJ App
+
+- [DJ App](https://docs.switchboard.audio/examples/dj-app/): About the DJ App
+
+### ducking-and-sound-effects-app
+
+About Ducking And Sound Effects
+
+- [Ducking And Sound Effects App](https://docs.switchboard.audio/examples/ducking-and-sound-effects-app/): About Ducking And Sound Effects
+
+### flanger
+
+Build a flanger effect with Switchboard Audio SDK. Real-time audio flanging for music apps, guitar effects, and audio processing. iOS and Android source code.
+
+- [Flanger Example](https://docs.switchboard.audio/examples/flanger/): Build a flanger effect with Switchboard Audio SDK. Real-time audio flanging for music apps, guitar effects, and audio processing. iOS and Android source code.
+
+### guitar-effect-app
+
+Build a real-time guitar effect app for iOS with Switchboard Audio SDK. Distortion, delay, reverb, and EQ processing from microphone input. Full source code.
+
+- [Build a Guitar Effect App](https://docs.switchboard.audio/examples/guitar-effect-app/): Build a real-time guitar effect app for iOS with Switchboard Audio SDK. Distortion, delay, reverb, and EQ processing from microphone input. Full source code.
+
+### karaoke-app-ivs
+
+Overview
+
+- [Karaoke App with Amazon IVS & Switchboard](https://docs.switchboard.audio/examples/karaoke-app-ivs/): Overview
+
+### karaoke-app
+
+How to build a karaoke app with Switchboard Audio SDK. Real-time pitch detection, audio mixing, echo cancellation during music playback. iOS and Android source.
+
+- [Build a Karaoke App](https://docs.switchboard.audio/examples/karaoke-app/): How to build a karaoke app with Switchboard Audio SDK. Real-time pitch detection, audio mixing, echo cancellation during music playback. iOS and Android source.
+
+### livekit-voicemod-app
+
+Build a React Native voice chat app with LiveKit and Voicemod using Switchboard SDK. Real-time voice effects in a WebRTC room. Full source code included.
+
+- [LiveKit + Voicemod React Native Example](https://docs.switchboard.audio/examples/livekit-voicemod-app/): Build a React Native voice chat app with LiveKit and Voicemod using Switchboard SDK. Real-time voice effects in a WebRTC room. Full source code included.
+
+### llm-demo-app
+
+About LLM Demo App
+
+- [LLM Demo App](https://docs.switchboard.audio/examples/llm-demo-app/): About LLM Demo App
+
+### mixing
+
+About Audio Mixing
+
+- [Mixing](https://docs.switchboard.audio/examples/mixing/): About Audio Mixing
+
+### multitrack-recorder-app
+
+About Multitrack Recorder App
+
+- [Multitrack Recorder App](https://docs.switchboard.audio/examples/multitrack-recorder-app/): About Multitrack Recorder App
+
+### music-ducking
+
+Build a music ducking app with Switchboard Audio SDK. Automatically reduce music volume when voice is detected. Source code for iOS and Android.
+
+- [Music Ducking Example](https://docs.switchboard.audio/examples/music-ducking/): Build a music ducking app with Switchboard Audio SDK. Automatically reduce music volume when voice is detected. Source code for iOS and Android.
+
+### noise-filtering
+
+About Noise Filtering
+
+- [Noise Filtering Example](https://docs.switchboard.audio/examples/noise-filtering/): About Noise Filtering
+
+### noise-gate
+
+About Noise Gate
+
+- [Noise Gate Example](https://docs.switchboard.audio/examples/noise-gate/): About Noise Gate
+
+### online-radio-app
+
+About Online Radio
+
+- [Online Radio App](https://docs.switchboard.audio/examples/online-radio-app/): About Online Radio
+
+### recorder
+
+About Audio Recording
+
+- [Recording](https://docs.switchboard.audio/examples/recorder/): About Audio Recording
+
+### reverb
+
+About Reverb
+
+- [Reverb Example](https://docs.switchboard.audio/examples/reverb/): About Reverb
+
+### silerovad-whisperstt-example-android
+
+Build an on-device audio transcription app for Android with Switchboard Audio SDK, featuring real-time speech-to-text and VAD configuration controls.
+
+- [Audio Transcription App for Android](https://docs.switchboard.audio/examples/silerovad-whisperstt-example-android/): Build an on-device audio transcription app for Android with Switchboard Audio SDK, featuring real-time speech-to-text and VAD configuration controls.
+
+### stt-tts
+
+This audio engine listens to the microphone input and transcribes the audio to text using the Whisper extension's Speech-to-Text (STT) node.
+
+- [Speech-to-Text - Text-to-Speech](https://docs.switchboard.audio/examples/stt-tts/): This audio engine listens to the microphone input and transcribes the audio to text using the Whisper extension's Speech-to-Text (STT) node.
+
+### stt
+
+This example demonstrates a Speech-to-Text (STT) setup using the Whisper extension's STT node. The graph includes a Voice Activity Detector (VAD) from the SileroVAD extension, which monitors audio input and triggers the STT node to transcribe when voice activity ends. The entire graph is executed by an audio engine that accesses the microphone for real-time processing.
+
+- [Speech-to-Text](https://docs.switchboard.audio/examples/stt/): This example demonstrates a Speech-to-Text (STT) setup using the Whisper extension's STT node. The graph includes a Voice Activity Detector (VAD) from the SileroVAD extension, which monitors audio input and triggers the STT node to transcribe when voice activity ends. The entire graph is executed by an audio engine that accesses the microphone for real-time processing.
+
+### tts
+
+This example uses the text-to-speech node from the Sherpa extension. The generated speech audio is rendered in real-time on the device's speaker.
+
+- [Text-to-Speech](https://docs.switchboard.audio/examples/tts/): This example uses the text-to-speech node from the Sherpa extension. The generated speech audio is rendered in real-time on the device's speaker.
+
+### vad
+
+Build voice activity detection into your app with Switchboard Audio SDK. Detect speech in real time, trigger recording, and filter silence. iOS and Android source code.
+
+- [Voice Activity Detection Example](https://docs.switchboard.audio/examples/vad/): Build voice activity detection into your app with Switchboard Audio SDK. Detect speech in real time, trigger recording, and filter silence. iOS and Android source code.
+
+### vocal-fx-chains
+
+About Vocal FX Chains
+
+- [Vocal FX Chains](https://docs.switchboard.audio/examples/vocal-fx-chains/): About Vocal FX Chains
+
+### voice-changer-app
+
+About Voice Changer App
+
+- [Voice Changer App](https://docs.switchboard.audio/examples/voice-changer-app/): About Voice Changer App
+
+### voice-communication-app
+
+Build a voice communication app with Agora and Switchboard Audio SDK. Real-time voice chat with noise suppression, echo cancellation, and audio effects.
+
+- [Voice Communication App with Agora](https://docs.switchboard.audio/examples/voice-communication-app/): Build a voice communication app with Agora and Switchboard Audio SDK. Real-time voice chat with noise suppression, echo cancellation, and audio effects.
+
+### voice-control-app-ios
+
+Build a hands-free voice control app for iOS with Switchboard Audio SDK. On-device speech recognition, voice commands, and wake word detection. Full source code.
+
+- [Voice Control App for iOS](https://docs.switchboard.audio/examples/voice-control-app-ios/): Build a hands-free voice control app for iOS with Switchboard Audio SDK. On-device speech recognition, voice commands, and wake word detection. Full source code.
+
+### voicemod-app
+
+The Voicemod Extension is no longer available. For voice changing with Switchboard SDK, see the Switchboard Voice Changer Demo.
+
+- [Voicemod App](https://docs.switchboard.audio/examples/voicemod-app/): The Voicemod Extension is no longer available. For voice changing with Switchboard SDK, see the Switchboard Voice Changer Demo.
+
+### vu-meter
+
+VU meter stands for Volume Unit meter. Learn what VU meters measure, how they differ from peak meters, and how to implement audio metering in your app.
+
+- [What is a VU Meter? Definition, History, and How It Works](https://docs.switchboard.audio/examples/vu-meter/): VU meter stands for Volume Unit meter. Learn what VU meters measure, how they differ from peak meters, and how to implement audio metering in your app.
+
+## extension-api
+
+C++
+
+- [Extension API Reference](https://docs.switchboard.audio/extension-api/): C++
+
+## extensions
+
+Switchboard SDK extensions allow you to expand the capabilities of your audio pipelines by making additional nodes available. With extensions loaded, you can access a wide variety of nodes, ranging from simple DSP to AI audio models running in the cloud. Some extensions are completely free to use, while others may require a license key for activation.
+
+- [Extensions](https://docs.switchboard.audio/extensions/): Switchboard SDK extensions allow you to expand the capabilities of your audio pipelines by making additional nodes available. With extensions loaded, you can access a wide variety of nodes, ranging from simple DSP to AI audio models running in the cloud. Some extensions are completely free to use, while others may require a license key for activation.
+
+### agora
+
+Real-time communication by Agora.
+
+- [Agora Extension](https://docs.switchboard.audio/extensions/agora/): Real-time communication by Agora.
+
+### amazon-ivs
+
+Real-time communication by Amazon.
+
+- [Amazon IVS Extension](https://docs.switchboard.audio/extensions/amazon-ivs/): Real-time communication by Amazon.
+- [IVS Broadcast Sink Node](https://docs.switchboard.audio/extensions/amazon-ivs/ivs-broadcast-sink-node/): The IVSBroadcastSinkNode is the bridge between a Switchboard audio graph and an Amazon IVS stream.
+
+### aubio
+
+Audio analysis like pitch detection and onset detection.
+
+- [Aubio Extension](https://docs.switchboard.audio/extensions/aubio/): Audio analysis like pitch detection and onset detection.
+
+### audio-effects
+
+Voice effects like chorus and delay.
+
+- [Audio Effects Extension](https://docs.switchboard.audio/extensions/audio-effects/): Voice effects like chorus and delay.
+
+### audio-shake
+
+Splitting drums, vocals, bass and other tracks into separate streams.
+
+- [AudioShake Extension](https://docs.switchboard.audio/extensions/audio-shake/): Splitting drums, vocals, bass and other tracks into separate streams.
+
+### beta
+
+Planning to use any of these extensions?
+
+- [Beta Extensions](https://docs.switchboard.audio/extensions/beta/): Planning to use any of these extensions?
+
+### bose-pinpoint
+
+Noise filter by Bose.
+
+- [Bose PinPoint Extension](https://docs.switchboard.audio/extensions/bose-pinpoint/): Noise filter by Bose.
+
+### bring-your-own-extension
+
+You can build your own custom nodes and package them into a Switchboard SDK extension. This allows you to extend the functionality of the SDK with your own DSP algorithms, processing chains, or integrations.
+
+- [Bring Your Own Extension](https://docs.switchboard.audio/extensions/bring-your-own-extension/): You can build your own custom nodes and package them into a Switchboard SDK extension. This allows you to extend the functionality of the SDK with your own DSP algorithms, processing chains, or integrations.
+
+### chime
+
+Integrate Amazon Chime's real-time voice and video with Switchboard Audio SDK. Add noise suppression, voice effects, and audio processing to Chime-powered apps.
+
+- [Amazon Chime Extension](https://docs.switchboard.audio/extensions/chime/): Integrate Amazon Chime's real-time voice and video with Switchboard Audio SDK. Add noise suppression, voice effects, and audio processing to Chime-powered apps.
+
+### dash-radio
+
+Radio music player.
+
+- [Dash Radio Extension](https://docs.switchboard.audio/extensions/dash-radio/): Radio music player.
+
+### exo-player
+
+Universal audio player on Android.
+
+- [ExoPlayer Extension](https://docs.switchboard.audio/extensions/exo-player/): Universal audio player on Android.
+
+### livekit
+
+Real-time audio and video chat.
+
+- [LiveKit Extension](https://docs.switchboard.audio/extensions/livekit/): Real-time audio and video chat.
+
+### llm
+
+Integrate OpenAI's real-time audio processing features, including speech recognition and synthesis, into your audio applications.
+
+- [LlamaCpp Extension](https://docs.switchboard.audio/extensions/llm/): Integrate OpenAI's real-time audio processing features, including speech recognition and synthesis, into your audio applications.
+- [LLM Node](https://docs.switchboard.audio/extensions/llm/llm-node/): The LLM Node processes incoming text prompts and generates responses using a local or specified language model. It enables integration of AI-powered conversational or generative text capabilities within your application, without relying on external APIs.
+
+### music-synchronization
+
+Synchronizing music players over the internet.
+
+- [Music Synchronization Extension](https://docs.switchboard.audio/extensions/music-synchronization/): Synchronizing music players over the internet.
+
+### onnx
+
+Running audio ML models.
+
+- [ONNX Extension](https://docs.switchboard.audio/extensions/onnx/): Running audio ML models.
+
+### openai
+
+Integrate OpenAI's real-time audio processing features, including speech recognition and synthesis, into your audio applications.
+
+- [OpenAI Extension](https://docs.switchboard.audio/extensions/openai/): Integrate OpenAI's real-time audio processing features, including speech recognition and synthesis, into your audio applications.
+- [OpenAI Realtime Node](https://docs.switchboard.audio/extensions/openai/openai-node/): The OpenAI Realtime Node processes incoming audio by forwarding it to OpenAI's real-time audio API. It then outputs the audio response generated by OpenAI, enabling seamless integration of AI-powered audio interactions.
+
+### picovoice
+
+On-device speech-to-text with Picovoice and Switchboard Audio SDK. Offline speech recognition using Picovoice's Leopard and Cheetah engines.
+
+- [PicoVoice Speech-to-Text Extension](https://docs.switchboard.audio/extensions/picovoice/): On-device speech-to-text with Picovoice and Switchboard Audio SDK. Offline speech recognition using Picovoice's Leopard and Cheetah engines.
+
+### pytorch
+
+The PyTorch Extension is no longer available from Switchboard. If you need PyTorch-based ML audio processing, get in touch at hello@synervoz.com.
+
+- [PyTorch Extension](https://docs.switchboard.audio/extensions/pytorch/): The PyTorch Extension is no longer available from Switchboard. If you need PyTorch-based ML audio processing, get in touch at hello@synervoz.com.
+
+### rnnoise
+
+RNNoise noise suppression for Switchboard Audio SDK. Remove background noise from audio in real time using Mozilla's neural network-based noise filter.
+
+- [RNNoise Extension](https://docs.switchboard.audio/extensions/rnnoise/): RNNoise noise suppression for Switchboard Audio SDK. Remove background noise from audio in real time using Mozilla's neural network-based noise filter.
+- [RNNoise Noise Filter Node](https://docs.switchboard.audio/extensions/rnnoise/noise-filter-node/): The noise filter node uses RNNoise to filter out background noise from the audio signal.
+
+### rtneural
+
+Run RTNeural machine learning models in Switchboard Audio SDK. Inference-optimized neural network audio processing for real-time effects and noise suppression.
+
+- [RTNeural Extension](https://docs.switchboard.audio/extensions/rtneural/): Run RTNeural machine learning models in Switchboard Audio SDK. Inference-optimized neural network audio processing for real-time effects and noise suppression.
+
+### sherpa
+
+Converting text to speech, speech recognition and transcription.
+
+- [Sherpa Extension](https://docs.switchboard.audio/extensions/sherpa/): Converting text to speech, speech recognition and transcription.
+- [Sherpa TTS Node](https://docs.switchboard.audio/extensions/sherpa/tts-node/): SherpaTTS node is responsible for converting text into natural-sounding speech using advanced text-to-speech algorithms.
+
+### silero-vad
+
+Silero VAD voice activity detection for Switchboard Audio SDK. ML-powered speech detection with low latency and high accuracy. Runs on-device.
+
+- [SileroVAD Extension](https://docs.switchboard.audio/extensions/silero-vad/): Silero VAD voice activity detection for Switchboard Audio SDK. ML-powered speech detection with low latency and high accuracy. Runs on-device.
+- [SileroVAD VAD Node](https://docs.switchboard.audio/extensions/silero-vad/vad-node/): The voice activity detector (VAD) node uses SileroVAD to detect the presence of voice activity in the audio signal.
+
+### smart-turn
+
+Smart Turn end-of-turn detection. ML-powered turn detection for conversational AI using an on-device ONNX model.
+
+- [SmartTurn Extension](https://docs.switchboard.audio/extensions/smart-turn/): Smart Turn end-of-turn detection. ML-powered turn detection for conversational AI using an on-device ONNX model.
+- [SmartTurn Turn Node](https://docs.switchboard.audio/extensions/smart-turn/turn-node/): The Turn node detects whether a speaker's turn is complete in conversational audio. It buffers up to 8 seconds of audio and, when the infer action is called, runs the Smart-Turn ONNX model to produce a turn-completion probability.
+
+### sox
+
+Audio effects like flanger and phaser.
+
+- [SoX Extension](https://docs.switchboard.audio/extensions/sox/): Audio effects like flanger and phaser.
+
+### speex-dsp
+
+Voice processing, echo cancellation.
+
+- [Speex DSP Extension](https://docs.switchboard.audio/extensions/speex-dsp/): Voice processing, echo cancellation.
+
+### spotify
+
+Playing music from Spotify.
+
+- [Spotify Extension](https://docs.switchboard.audio/extensions/spotify/): Playing music from Spotify.
+
+### superpowered
+
+Various low-latency audio effects.
+
+- [Superpowered Extension](https://docs.switchboard.audio/extensions/superpowered/): Various low-latency audio effects.
+
+### tensorflow
+
+Running TensorFlow ML models.
+
+- [TensorFlow Extension](https://docs.switchboard.audio/extensions/tensorflow/): Running TensorFlow ML models.
+
+### tokbox
+
+Integrate TokBox (Vonage Video API) with Switchboard Audio SDK. Add audio processing, noise suppression, and voice effects to TokBox video sessions.
+
+- [TokBox Extension](https://docs.switchboard.audio/extensions/tokbox/): Integrate TokBox (Vonage Video API) with Switchboard Audio SDK. Add audio processing, noise suppression, and voice effects to TokBox video sessions.
+
+### voicemod
+
+AI powered voice effects.
+
+- [Voicemod Extension](https://docs.switchboard.audio/extensions/voicemod/): AI powered voice effects.
+
+### vst
+
+Running VST plugins in Switchboard graph.
+
+- [VST Extension](https://docs.switchboard.audio/extensions/vst/): Running VST plugins in Switchboard graph.
+
+### webrtc
+
+Real-time audio and video chat with official WebRTC library.
+
+- [WebRTC Extension](https://docs.switchboard.audio/extensions/webrtc/): Real-time audio and video chat with official WebRTC library.
+
+### whisper
+
+Converting speech to text.
+
+- [Whisper Extension](https://docs.switchboard.audio/extensions/whisper/): Converting speech to text.
+- [Whisper STT Node](https://docs.switchboard.audio/extensions/whisper/stt-node/): Number of inputs1
+
+## faq
+
+Why to use Switchboard SDK?
+
+- [FAQ](https://docs.switchboard.audio/faq/): Why to use Switchboard SDK?
+
+## guide
+
+
+### bring-your-own-node
+
+- [Actions](https://docs.switchboard.audio/guide/bring-your-own-node/actions/): Actions are methods that can be invoked on your custom node from the application layer. Unlike properties which represent state, actions represent operations or commands that your node can execute.
+- [Adding New Node](https://docs.switchboard.audio/guide/bring-your-own-node/adding-new-node/): Subclassing AudioNode
+- [Configurations](https://docs.switchboard.audio/guide/bring-your-own-node/configurations/): Configurations are the parameters an object's constructor consumes to build itself. Each object type declares the configurations it supports, and every configuration has a default value; values that match their default may be omitted at construction and from an export. Configurations are part of the snapshot exported from an object (alongside its properties) and re-applying them through the constructor reproduces the object's prior state, including changes that accumulated while it was in use.
+- [Events](https://docs.switchboard.audio/guide/bring-your-own-node/events/): Events are notifications that your custom node can emit to communicate state changes, analysis results, or other important occurrences to the application layer. Unlike properties (which are polled) and actions (which are invoked), events are pushed from your node when something significant happens.
+- [Extensions](https://docs.switchboard.audio/guide/bring-your-own-node/extensions/): Extensions are packages that bundle one or more custom nodes into a distributable module that can be loaded into the Switchboard SDK. Once you've created your custom nodes, packaging them as an extension makes them reusable across projects and shareable with others.
+- [Overview](https://docs.switchboard.audio/guide/bring-your-own-node/overview/): Switchboard SDK is designed to be extensible. If you need functionality that isn't provided by the built-in nodes or extensions, you can create your own custom nodes and add them to your audio graphs.
+- [Properties](https://docs.switchboard.audio/guide/bring-your-own-node/properties/): Properties are real-time parameters that can be safely changed throughout node's lifetime and apply immediately when updated. Each node declares the properties it supports and every property has a default value. Properties are part of the snapshot exported from an objec (alongside its configurations), re-applying them through the constructor reproduces the object's prior state, including changes that accumulated while it was in use.
+
+### connecting-nodes
+
+To build an audio engine with Switchboard SDK, you connect nodes together in an audio graph. This lets you design flexible and powerful audio processing pipelines.
+
+- [Connecting Nodes](https://docs.switchboard.audio/guide/connecting-nodes/): To build an audio engine with Switchboard SDK, you connect nodes together in an audio graph. This lets you design flexible and powerful audio processing pipelines.
+
+### engines
+
+To run your audio graph, you need to place it inside an audio engine. The engine is responsible for managing audio I/O, scheduling, and processing, and determines how and where your audio graph runs.
+
+- [Engines](https://docs.switchboard.audio/guide/engines/): To run your audio graph, you need to place it inside an audio engine. The engine is responsible for managing audio I/O, scheduling, and processing, and determines how and where your audio graph runs.
+
+### nodes
+
+Nodes are the fundamental building blocks of audio engines in Switchboard SDK. Each node performs a specific function, such as generating, processing, or consuming audio, or handling non-audio tasks like event triggering or text processing.
+
+- [Nodes](https://docs.switchboard.audio/guide/nodes/): Nodes are the fundamental building blocks of audio engines in Switchboard SDK. Each node performs a specific function, such as generating, processing, or consuming audio, or handling non-audio tasks like event triggering or text processing.
+
+### objects
+
+Engines
+
+- [List of Objects](https://docs.switchboard.audio/guide/objects/): Engines
+- [SDK Instance](https://docs.switchboard.audio/guide/objects/switchboard/): The top-level Switchboard object serves as the primary interface for interacting with the SDK instance. It provides access to various methods and properties that allow developers to configure, initialize, and manage the SDK's functionality. This object acts as the central point for the highest-level operations related to the Switchboard SDK.
+
+### subgraphs
+
+Subgraphs are a powerful feature of the Switchboard SDK that allow you to nest audio graphs inside other audio graphs. This modular approach lets you encapsulate a group of interconnected nodes as a single unit, making your audio processing pipelines more organized, reusable, and maintainable.
+
+- [Subgraphs](https://docs.switchboard.audio/guide/subgraphs/): Subgraphs are a powerful feature of the Switchboard SDK that allow you to nest audio graphs inside other audio graphs. This modular approach lets you encapsulate a group of interconnected nodes as a single unit, making your audio processing pipelines more organized, reusable, and maintainable.
+
+### switchboard-objects
+
+The Switchboard SDK is a powerful tool for building and managing audio processing engines. It allows developers to design complex audio workflows using simple JSON configurations, enabling rapid prototyping and deployment. Once the audio engine is set up, its state can be dynamically modified with just a few API calls, providing flexibility and control for real-time audio applications.
+
+- [Switchboard Objects](https://docs.switchboard.audio/guide/switchboard-objects/): The Switchboard SDK is a powerful tool for building and managing audio processing engines. It allows developers to design complex audio workflows using simple JSON configurations, enabling rapid prototyping and deployment. Once the audio engine is set up, its state can be dynamically modified with just a few API calls, providing flexibility and control for real-time audio applications.
+
+### v2
+
+- [Switchboard SDK graph configuration](https://docs.switchboard.audio/guide/v2/json-graph-configuration/): Overview
+
+## integration
+
+
+### android
+
+Integrate Switchboard Audio SDK into your Android app. Gradle setup, permissions, and ProGuard configuration.
+
+- [Integrating the Android SDK](https://docs.switchboard.audio/integration/android/): Integrate Switchboard Audio SDK into your Android app. Gradle setup, permissions, and ProGuard configuration.
+
+### flutter
+
+Add real-time audio processing to Flutter apps with Switchboard SDK. Platform channel setup, Dart API, and native audio engine configuration for iOS and Android.
+
+- [Integrating the Switchboard SDK Into a Flutter Project](https://docs.switchboard.audio/integration/flutter/): Add real-time audio processing to Flutter apps with Switchboard SDK. Platform channel setup, Dart API, and native audio engine configuration for iOS and Android.
+
+### ios
+
+Integrate Switchboard Audio SDK into your iOS app. Step-by-step setup with CocoaPods or Swift Package Manager.
+
+- [Integrating the iOS SDK](https://docs.switchboard.audio/integration/ios/): Integrate Switchboard Audio SDK into your iOS app. Step-by-step setup with CocoaPods or Swift Package Manager.
+
+### jvm
+
+Integrate the Switchboard SDK into your JVM project.
+
+- [Integrating the JVM SDK](https://docs.switchboard.audio/integration/jvm/): Integrate the Switchboard SDK into your JVM project.
+
+### linux
+
+Integrate the Switchboard SDK into your Linux project.
+
+- [Integrating the Linux SDK](https://docs.switchboard.audio/integration/linux/): Integrate the Switchboard SDK into your Linux project.
+
+### macos
+
+Integrate Switchboard Audio SDK into your macOS app. Setup with Swift Package Manager or manual framework installation.
+
+- [Integrating the macOS SDK](https://docs.switchboard.audio/integration/macos/): Integrate Switchboard Audio SDK into your macOS app. Setup with Swift Package Manager or manual framework installation.
+
+### react-native
+
+Add real-time audio processing to React Native apps with Switchboard SDK. Setup guide, npm package installation, and native module configuration.
+
+- [Integrating the Switchboard SDK Into a React Native Project](https://docs.switchboard.audio/integration/react-native/): Add real-time audio processing to React Native apps with Switchboard SDK. Setup guide, npm package installation, and native module configuration.
+
+### unity
+
+Integrate the Switchboard SDK into your Unity project.
+
+- [Integrating the Switchboard SDK Into a Unity Project](https://docs.switchboard.audio/integration/unity/): Integrate the Switchboard SDK into your Unity project.
+
+### watchos
+
+Integrate the Switchboard SDK into your watchOS project.
+
+- [Integrating the watchOS SDK](https://docs.switchboard.audio/integration/watchos/): Integrate the Switchboard SDK into your watchOS project.
+
+### web
+
+Add Switchboard Audio SDK to your web app. JavaScript/TypeScript API, Web Audio API integration, and WebAssembly audio processing.
+
+- [Web Audio SDK Integration](https://docs.switchboard.audio/integration/web/): Add Switchboard Audio SDK to your web app. JavaScript/TypeScript API, Web Audio API integration, and WebAssembly audio processing.
+
+### windows
+
+Integrate the Switchboard SDK into your Windows project.
+
+- [Integrating the Windows SDK](https://docs.switchboard.audio/integration/windows/): Integrate the Switchboard SDK into your Windows project.
+
+## javascript-api
+
+Switchboard Audio SDK API reference for JavaScript. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+- [JavaScript API](https://docs.switchboard.audio/javascript-api/): Switchboard Audio SDK API reference for JavaScript. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+## json-rpc-api
+
+Switchboard Audio SDK JSON-RPC API reference — language-agnostic command/response protocol for driving the SDK from any client or transport.
+
+- [JSON-RPC API](https://docs.switchboard.audio/json-rpc-api/): Switchboard Audio SDK JSON-RPC API reference — language-agnostic command/response protocol for driving the SDK from any client or transport.
+
+## kotlin-api
+
+Switchboard Audio SDK API reference for Kotlin / Java. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+- [Kotlin / Java API](https://docs.switchboard.audio/kotlin-api/): Switchboard Audio SDK API reference for Kotlin / Java. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+## logging
+
+Setting up logging for applications
+
+- [Logging](https://docs.switchboard.audio/logging/): Setting up logging for applications
+
+## low-level-audio
+
+Read about advanced audio processing.
+
+- [Low-Level Audio](https://docs.switchboard.audio/low-level-audio/): Read about advanced audio processing.
+
+## nodes
+
+Nodes are the building blocks of Switchboard audio graphs. Each node performs a specific audio processing function, and by connecting nodes together, you can create sophisticated audio pipelines for your application.
+
+- [Nodes Overview](https://docs.switchboard.audio/nodes/): Nodes are the building blocks of Switchboard audio graphs. Each node performs a specific audio processing function, and by connecting nodes together, you can create sophisticated audio pipelines for your application.
+
+### aec
+
+AEC node reference for Switchboard Audio SDK. Remove echo from voice calls, conferencing, and voice AI apps. Supports WebRTC AEC3 on iOS, Android, and desktop.
+
+- [Acoustic Echo Cancellation (AEC)](https://docs.switchboard.audio/nodes/aec/): AEC node reference for Switchboard Audio SDK. Remove echo from voice calls, conferencing, and voice AI apps. Supports WebRTC AEC3 on iOS, Android, and desktop.
+
+### audio-player
+
+The audio player node can load audio files and play them.
+
+- [AudioPlayer Node](https://docs.switchboard.audio/nodes/audio-player/): The audio player node can load audio files and play them.
+
+### bus-select
+
+The BusSelect node selects one of multiple input audio buses and forwards it to the output.
+
+- [BusSelect Node](https://docs.switchboard.audio/nodes/bus-select/): The BusSelect node selects one of multiple input audio buses and forwards it to the output.
+
+### bus-splitter
+
+The BusSplitter node splits a single input audio bus into multiple output audio buses, duplicating the input signal to each output.
+
+- [BusSplitter Node](https://docs.switchboard.audio/nodes/bus-splitter/): The BusSplitter node splits a single input audio bus into multiple output audio buses, duplicating the input signal to each output.
+
+### bus-switch
+
+The BusSwitch node takes one input and selects one of multiple output audio buses and routes input to it, allowing dynamic switching between destinations.
+
+- [BusSwitch Node](https://docs.switchboard.audio/nodes/bus-switch/): The BusSwitch node takes one input and selects one of multiple output audio buses and routes input to it, allowing dynamic switching between destinations.
+
+### by-source
+
+Switchboard nodes can come from two sources:
+
+- [Nodes by Source](https://docs.switchboard.audio/nodes/by-source/): Switchboard nodes can come from two sources:
+- [Built-in Nodes](https://docs.switchboard.audio/nodes/by-source/built-in/): These nodes are provided directly by the Switchboard SDK and are available out of the box.
+- [Extension Nodes](https://docs.switchboard.audio/nodes/by-source/extensions/): These nodes are provided by third-party extensions that integrate with Switchboard.
+
+### by-use-case
+
+Here you can find the Switchboard Nodes categorised by usage in an audio graph.
+
+- [Nodes by Use Case](https://docs.switchboard.audio/nodes/by-use-case/): Here you can find the Switchboard Nodes categorised by usage in an audio graph.
+
+### channel-splitter
+
+The ChannelSplitter node splits the channels of a multichannel input audio bus into separate output audio buses, one for each channel.
+
+- [ChannelSplitter Node](https://docs.switchboard.audio/nodes/channel-splitter/): The ChannelSplitter node splits the channels of a multichannel input audio bus into separate output audio buses, one for each channel.
+
+### chorus
+
+A chorus node processes incoming audio streams by mixing the original signal with delayed and pitch-modulated copies of itself, producing a richer, fuller sound that mimics multiple voices or instruments playing in unison. This effect is commonly used in music production to add depth, warmth, and movement to vocals, guitars, and synthesizers. Key parameters typically include modulation rate, depth, and delay time.
+
+- [Chorus](https://docs.switchboard.audio/nodes/chorus/): A chorus node processes incoming audio streams by mixing the original signal with delayed and pitch-modulated copies of itself, producing a richer, fuller sound that mimics multiple voices or instruments playing in unison. This effect is commonly used in music production to add depth, warmth, and movement to vocals, guitars, and synthesizers. Key parameters typically include modulation rate, depth, and delay time.
+
+### clipping-detector
+
+The ClippingDetector node monitors the incoming audio signal and detects when the signal exceeds a specified threshold, indicating potential clipping or distortion.
+
+- [ClippingDetector Node](https://docs.switchboard.audio/nodes/clipping-detector/): The ClippingDetector node monitors the incoming audio signal and detects when the signal exceeds a specified threshold, indicating potential clipping or distortion.
+
+### compressor
+
+A compressor node processes incoming audio streams by reducing the dynamic range of the signal. It lowers the volume of loud sounds while boosting quieter ones, resulting in a more balanced and consistent audio output. This effect is widely used in music production, broadcasting, and live sound to control peaks, enhance presence, and improve overall mix clarity. Key parameters typically include threshold, ratio, attack, release, and makeup gain.
+
+- [Compressor](https://docs.switchboard.audio/nodes/compressor/): A compressor node processes incoming audio streams by reducing the dynamic range of the signal. It lowers the volume of loud sounds while boosting quieter ones, resulting in a more balanced and consistent audio output. This effect is widely used in music production, broadcasting, and live sound to control peaks, enhance presence, and improve overall mix clarity. Key parameters typically include threshold, ratio, attack, release, and makeup gain.
+
+### crossfader
+
+The Crossfader node smoothly blends between two input audio signals, allowing for transitions or mixing between sources.
+
+- [Crossfader Node](https://docs.switchboard.audio/nodes/crossfader/): The Crossfader node smoothly blends between two input audio signals, allowing for transitions or mixing between sources.
+
+### discard
+
+The Discard node consumes and discards incoming audio data. It is useful for testing or intentionally dropping audio.
+
+- [Discard Node](https://docs.switchboard.audio/nodes/discard/): The Discard node consumes and discards incoming audio data. It is useful for testing or intentionally dropping audio.
+
+### echo
+
+An echo node processes incoming audio streams and outputs a delayed version of the original signal, effectively creating an echo effect. This is commonly used for testing, debugging, or enhancing audio experiences by simulating real-world acoustic environments. The node typically allows configuration of parameters such as delay time and feedback to control the intensity and duration of the echo.
+
+- [Echo](https://docs.switchboard.audio/nodes/echo/): An echo node processes incoming audio streams and outputs a delayed version of the original signal, effectively creating an echo effect. This is commonly used for testing, debugging, or enhancing audio experiences by simulating real-world acoustic environments. The node typically allows configuration of parameters such as delay time and feedback to control the intensity and duration of the echo.
+
+### eq
+
+An EQ (equalizer) node processes incoming audio streams by adjusting the balance of different frequency bands. This allows for shaping the tonal characteristics of the sound, enhancing or reducing specific frequencies to achieve the desired audio quality. Three-band EQs typically provide control over low, mid, and high-frequency ranges, making them popular for basic tonal adjustments in music production, broadcasting, and live sound.
+
+- [EQ](https://docs.switchboard.audio/nodes/eq/): An EQ (equalizer) node processes incoming audio streams by adjusting the balance of different frequency bands. This allows for shaping the tonal characteristics of the sound, enhancing or reducing specific frequencies to achieve the desired audio quality. Three-band EQs typically provide control over low, mid, and high-frequency ranges, making them popular for basic tonal adjustments in music production, broadcasting, and live sound.
+
+### flanger
+
+A flanger node processes incoming audio streams by mixing the original signal with a slightly delayed copy of itself, where the delay time is continuously modulated. This creates a sweeping, whooshing sound characterized by peaks and troughs in the frequency spectrum, often described as a “jet plane” or “swirling” effect. Flangers are commonly used in music production to add movement and texture to guitars, vocals, and synthesizers. Key parameters typically include delay time, feedback, and modulation rate.
+
+- [Flanger](https://docs.switchboard.audio/nodes/flanger/): A flanger node processes incoming audio streams by mixing the original signal with a slightly delayed copy of itself, where the delay time is continuously modulated. This creates a sweeping, whooshing sound characterized by peaks and troughs in the frequency spectrum, often described as a “jet plane” or “swirling” effect. Flangers are commonly used in music production to add movement and texture to guitars, vocals, and synthesizers. Key parameters typically include delay time, feedback, and modulation rate.
+
+### gain
+
+The Gain node applies a gain (volume adjustment) to the incoming audio signal.
+
+- [Gain Node](https://docs.switchboard.audio/nodes/gain/): The Gain node applies a gain (volume adjustment) to the incoming audio signal.
+
+### invert
+
+The Invert node inverts the polarity of the incoming audio signal, flipping its phase by 180 degrees.
+
+- [Invert Node](https://docs.switchboard.audio/nodes/invert/): The Invert node inverts the polarity of the incoming audio signal, flipping its phase by 180 degrees.
+
+### limiter
+
+A limiter node processes incoming audio streams by preventing the signal from exceeding a specified maximum level, effectively capping the volume to avoid distortion and clipping. It acts as a strict form of compression with a very high ratio, ensuring the loudest parts of the audio stay within safe limits. Limiters are widely used in mastering, broadcasting, and live sound to maintain audio clarity and protect equipment. Key parameters typically include threshold and release time.
+
+- [Limiter](https://docs.switchboard.audio/nodes/limiter/): A limiter node processes incoming audio streams by preventing the signal from exceeding a specified maximum level, effectively capping the volume to avoid distortion and clipping. It acts as a strict form of compression with a very high ratio, ensuring the loudest parts of the audio stay within safe limits. Limiters are widely used in mastering, broadcasting, and live sound to maintain audio clarity and protect equipment. Key parameters typically include threshold and release time.
+
+### mixer
+
+The Mixer node combines multiple input audio buses into a single output bus, allowing you to mix several audio sources together.
+
+- [Mixer Node](https://docs.switchboard.audio/nodes/mixer/): The Mixer node combines multiple input audio buses into a single output bus, allowing you to mix several audio sources together.
+
+### mono-bus-merger
+
+The MonoBusMerger node merges multiple mono input audio buses into a single output audio bus with multiple channels, each channel corresponding to one input bus.
+
+- [MonoBusMerger Node](https://docs.switchboard.audio/nodes/mono-bus-merger/): The MonoBusMerger node merges multiple mono input audio buses into a single output audio bus with multiple channels, each channel corresponding to one input bus.
+
+### mono-to-multi-channel
+
+The MonoToMultiChannel node copies a mono input signal to all channels of a multichannel output audio bus.
+
+- [MonoToMultiChannel Node](https://docs.switchboard.audio/nodes/mono-to-multi-channel/): The MonoToMultiChannel node copies a mono input signal to all channels of a multichannel output audio bus.
+
+### multi-channel-to-mono
+
+The MultiChannelToMono node mixes all channels of a multichannel input audio bus down to a single mono output.
+
+- [MultiChannelToMono Node](https://docs.switchboard.audio/nodes/multi-channel-to-mono/): The MultiChannelToMono node mixes all channels of a multichannel input audio bus down to a single mono output.
+
+### music-ducking
+
+The MusicDucking node automatically reduces the volume of background music when another signal (such as voice) is detected, improving clarity for important audio.
+
+- [MusicDucking Node](https://docs.switchboard.audio/nodes/music-ducking/): The MusicDucking node automatically reduces the volume of background music when another signal (such as voice) is detected, improving clarity for important audio.
+
+### mute
+
+The Mute node can mute or unmute the incoming audio signal.
+
+- [Mute Node](https://docs.switchboard.audio/nodes/mute/): The Mute node can mute or unmute the incoming audio signal.
+
+### noise-filter
+
+A noise filter node reduces unwanted background noise from an audio stream, improving clarity in recordings and live communications. It is especially useful in environments with consistent ambient sounds like hums, hisses, or background chatter. Common features include adjustable noise reduction levels, real-time processing, and optional voice activity detection (VAD) for further enhancement.
+
+- [Noise Filter](https://docs.switchboard.audio/nodes/noise-filter/): A noise filter node reduces unwanted background noise from an audio stream, improving clarity in recordings and live communications. It is especially useful in environments with consistent ambient sounds like hums, hisses, or background chatter. Common features include adjustable noise reduction levels, real-time processing, and optional voice activity detection (VAD) for further enhancement.
+
+### noise-gate
+
+The NoiseGate node suppresses audio signals below a certain threshold, reducing background noise and unwanted low-level sounds.
+
+- [NoiseGate Node](https://docs.switchboard.audio/nodes/noise-gate/): The NoiseGate node suppresses audio signals below a certain threshold, reducing background noise and unwanted low-level sounds.
+
+### offset
+
+The Offset node adds a constant value to the incoming audio signal, useful for DC offset correction or signal manipulation.
+
+- [Offset Node](https://docs.switchboard.audio/nodes/offset/): The Offset node adds a constant value to the incoming audio signal, useful for DC offset correction or signal manipulation.
+
+### overdrive
+
+An overdrive node processes incoming audio streams by amplifying the signal to the point of mild distortion, simulating the warm, natural breakup of an overdriven tube amplifier. This effect is commonly used in electric guitar processing to add grit, sustain, and harmonic richness. Key parameters typically include drive (amount of distortion), tone, and level.
+
+- [Overdrive](https://docs.switchboard.audio/nodes/overdrive/): An overdrive node processes incoming audio streams by amplifying the signal to the point of mild distortion, simulating the warm, natural breakup of an overdriven tube amplifier. This effect is commonly used in electric guitar processing to add grit, sustain, and harmonic richness. Key parameters typically include drive (amount of distortion), tone, and level.
+
+### passthrough
+
+The Passthrough node forwards the input audio to the output without any modification.
+
+- [Passthrough Node](https://docs.switchboard.audio/nodes/passthrough/): The Passthrough node forwards the input audio to the output without any modification.
+
+### phaser
+
+A phaser node processes incoming audio streams by splitting the signal, applying a series of phase-shifting filters to one copy, and then mixing it back with the original. This creates a characteristic sweeping, swirling sound with peaks and notches in the frequency spectrum. Phasers are commonly used in music production to add movement and texture to guitars, keyboards, and synthesizers. Key parameters typically include rate, depth, feedback, and stages.
+
+- [Phaser](https://docs.switchboard.audio/nodes/phaser/): A phaser node processes incoming audio streams by splitting the signal, applying a series of phase-shifting filters to one copy, and then mixing it back with the original. This creates a characteristic sweeping, swirling sound with peaks and notches in the frequency spectrum. Phasers are commonly used in music production to add movement and texture to guitars, keyboards, and synthesizers. Key parameters typically include rate, depth, feedback, and stages.
+
+### pitch-correction
+
+Pitch correction nodes adjust the pitch of incoming audio streams to match desired notes or scales, helping to correct off-key performances or create unique vocal effects. Often used in vocal processing, this effect can subtly enhance intonation or produce the distinctive robotic sound popular in modern music. Parameters commonly include correction speed, key, and scale.
+
+- [Pitch Correction](https://docs.switchboard.audio/nodes/pitch-correction/): Pitch correction nodes adjust the pitch of incoming audio streams to match desired notes or scales, helping to correct off-key performances or create unique vocal effects. Often used in vocal processing, this effect can subtly enhance intonation or produce the distinctive robotic sound popular in modern music. Parameters commonly include correction speed, key, and scale.
+
+### pitch-detector
+
+Real-time pitch detection node for Switchboard Audio SDK. Detect fundamental frequency from audio input for tuners, karaoke apps, and vocal analysis.
+
+- [Pitch Detector](https://docs.switchboard.audio/nodes/pitch-detector/): Real-time pitch detection node for Switchboard Audio SDK. Detect fundamental frequency from audio input for tuners, karaoke apps, and vocal analysis.
+
+### pitch-shift
+
+Pitch shift nodes modify the pitch of incoming audio streams without affecting their playback speed. This effect is often used to create harmonies, correct vocal performances, or achieve special effects in music production. Key parameters usually include shift amount (measured in semitones), formant preservation, and interpolation quality.
+
+- [Pitch Shift](https://docs.switchboard.audio/nodes/pitch-shift/): Pitch shift nodes modify the pitch of incoming audio streams without affecting their playback speed. This effect is often used to create harmonies, correct vocal performances, or achieve special effects in music production. Key parameters usually include shift amount (measured in semitones), formant preservation, and interpolation quality.
+
+### player
+
+An audio player node handles the playback of audio files or streams. While its core purpose is straightforward, it typically includes useful features such as seeking within the audio timeline, adjusting playback speed, looping, and pausing or resuming playback.
+
+- [Player](https://docs.switchboard.audio/nodes/player/): An audio player node handles the playback of audio files or streams. While its core purpose is straightforward, it typically includes useful features such as seeking within the audio timeline, adjusting playback speed, looping, and pausing or resuming playback.
+
+### recorder
+
+The Recorder node captures incoming audio and stores it for playback or export.
+
+- [Recorder Node](https://docs.switchboard.audio/nodes/recorder/): The Recorder node captures incoming audio and stores it for playback or export.
+
+### resamped-sink
+
+The ResampedSink node receives audio and resamples it to a different sample rate for use by an embedded audio node.
+
+- [ResampedSink Node](https://docs.switchboard.audio/nodes/resamped-sink/): The ResampedSink node receives audio and resamples it to a different sample rate for use by an embedded audio node.
+
+### resampled-source
+
+The ResampledSource embeds another and outputs resampled audio from another sample rate.
+
+- [ResampledSource Node](https://docs.switchboard.audio/nodes/resampled-source/): The ResampledSource embeds another and outputs resampled audio from another sample rate.
+
+### resampler
+
+The Resampler node changes the sample rate of the audio stream, allowing for conversion between different audio formats.
+
+- [Resampler Node](https://docs.switchboard.audio/nodes/resampler/): The Resampler node changes the sample rate of the audio stream, allowing for conversion between different audio formats.
+
+### reverb
+
+A reverb node processes incoming audio streams by simulating the natural reflections of sound in an acoustic space, creating a sense of depth and ambience. This effect is widely used in music production, film, and broadcasting to add space and realism to audio signals. Key parameters typically include room size, decay time, early reflections, and wet/dry mix.
+
+- [Reverb](https://docs.switchboard.audio/nodes/reverb/): A reverb node processes incoming audio streams by simulating the natural reflections of sound in an acoustic space, creating a sense of depth and ambience. This effect is widely used in music production, film, and broadcasting to add space and realism to audio signals. Key parameters typically include room size, decay time, early reflections, and wet/dry mix.
+
+### rtc
+
+An RTC (Real-Time Communication) node enables low-latency, two-way audio transmission over a network, supporting use cases like voice chat, conferencing, and live collaboration. It typically handles audio encoding/decoding, jitter buffering, packet loss concealment, and synchronization. Many RTC nodes also support integration with signaling protocols and NAT traversal techniques (e.g., STUN, TURN).
+
+- [Real-Time Communication (RTC)](https://docs.switchboard.audio/nodes/rtc/): An RTC (Real-Time Communication) node enables low-latency, two-way audio transmission over a network, supporting use cases like voice chat, conferencing, and live collaboration. It typically handles audio encoding/decoding, jitter buffering, packet loss concealment, and synchronization. Many RTC nodes also support integration with signaling protocols and NAT traversal techniques (e.g., STUN, TURN).
+
+### silence
+
+The Silence node generates a silent (zero-valued) audio signal.
+
+- [Silence Node](https://docs.switchboard.audio/nodes/silence/): The Silence node generates a silent (zero-valued) audio signal.
+
+### sine-generator
+
+The sine generator node produces a sine wave signal with a specified frequency and amplitude.
+
+- [SineGenerator Node](https://docs.switchboard.audio/nodes/sine-generator/): The sine generator node produces a sine wave signal with a specified frequency and amplitude.
+
+### stem-separation
+
+A stem separation node isolates individual elements—such as vocals, drums, bass, and other instruments—from a mixed audio track. This allows users to remix, analyze, or process each component independently. Common features include multi-stem extraction (e.g., 2, 4, or 5 stems), real-time or offline processing, and support for common audio formats.
+
+- [Stem Separation](https://docs.switchboard.audio/nodes/stem-separation/): A stem separation node isolates individual elements—such as vocals, drums, bass, and other instruments—from a mixed audio track. This allows users to remix, analyze, or process each component independently. Common features include multi-stem extraction (e.g., 2, 4, or 5 stems), real-time or offline processing, and support for common audio formats.
+
+### stereo-bus-merger
+
+The StereoBusMerger node merges multiple stereo input audio buses into a single multichannel output bus.
+
+- [StereoBusMerger Node](https://docs.switchboard.audio/nodes/stereo-bus-merger/): The StereoBusMerger node merges multiple stereo input audio buses into a single multichannel output bus.
+
+### stereo-panner
+
+The StereoPanner node adjusts the left-right stereo balance of the audio signal.
+
+- [StereoPanner Node](https://docs.switchboard.audio/nodes/stereo-panner/): The StereoPanner node adjusts the left-right stereo balance of the audio signal.
+
+### stream-player
+
+The audio player node can load audio streams from URLs and play them.
+
+- [StreamPlayer Node](https://docs.switchboard.audio/nodes/stream-player/): The audio player node can load audio streams from URLs and play them.
+
+### stt
+
+A speech-to-text (STT) node transcribes spoken audio into written text, enabling voice control, transcription services, and accessibility features. It typically supports real-time and batch processing, multiple languages, speaker diarization, and punctuation handling. Some implementations also offer confidence scoring and formatting options.
+
+- [Speech-to-Text (STT)](https://docs.switchboard.audio/nodes/stt/): A speech-to-text (STT) node transcribes spoken audio into written text, enabling voice control, transcription services, and accessibility features. It typically supports real-time and batch processing, multiple languages, speaker diarization, and punctuation handling. Some implementations also offer confidence scoring and formatting options.
+
+### subgraph-processor
+
+The SubgraphProcessor node allows you to embed a subgraph within another graph, enabling a more modular and organized approach to building complex audio graph setups. This feature is particularly useful for managing graphs that include both inputs and outputs, simplifying their structure and enhancing reusability.
+
+- [SubgraphProcessor Node](https://docs.switchboard.audio/nodes/subgraph-processor/): The SubgraphProcessor node allows you to embed a subgraph within another graph, enabling a more modular and organized approach to building complex audio graph setups. This feature is particularly useful for managing graphs that include both inputs and outputs, simplifying their structure and enhancing reusability.
+
+### subgraph-sink
+
+The SubgraphSink node allows you to embed a subgraph within another graph, enabling a more modular and organized approach to building complex audio graph setups. This feature is particularly useful for managing graphs that include only inputs, simplifying their structure and enhancing reusability.
+
+- [SubgraphSink Node](https://docs.switchboard.audio/nodes/subgraph-sink/): The SubgraphSink node allows you to embed a subgraph within another graph, enabling a more modular and organized approach to building complex audio graph setups. This feature is particularly useful for managing graphs that include only inputs, simplifying their structure and enhancing reusability.
+
+### subgraph-source
+
+The SubgraphSource node allows you to embed a subgraph within another graph, enabling a more modular and organized approach to building complex audio graph setups. This feature is particularly useful for managing graphs that include only outputs, simplifying their structure and enhancing reusability.
+
+- [SubgraphSource Node](https://docs.switchboard.audio/nodes/subgraph-source/): The SubgraphSource node allows you to embed a subgraph within another graph, enabling a more modular and organized approach to building complex audio graph setups. This feature is particularly useful for managing graphs that include only outputs, simplifying their structure and enhancing reusability.
+
+### synchronized-audio-player
+
+The SynchronizedAudioPlayer node plays audio in sync with a timeline or other synchronized events.
+
+- [SynchronizedAudioPlayer Node](https://docs.switchboard.audio/nodes/synchronized-audio-player/): The SynchronizedAudioPlayer node plays audio in sync with a timeline or other synchronized events.
+
+### timeline-quantized-trigger
+
+The TimelineQuantizedTrigger node triggers actions aligned to quantization points on a timeline, useful for music timing and synchronization.
+
+- [TimelineQuantizedTrigger Node](https://docs.switchboard.audio/nodes/timeline-quantized-trigger/): The TimelineQuantizedTrigger node triggers actions aligned to quantization points on a timeline, useful for music timing and synchronization.
+
+### timeline
+
+The Timeline node is used to synchronize audio processing with a timeline, enabling time-based automation or triggering of events in the audio graph.
+
+- [Timeline Node](https://docs.switchboard.audio/nodes/timeline/): The Timeline node is used to synchronize audio processing with a timeline, enabling time-based automation or triggering of events in the audio graph.
+
+### timer
+
+The Timer node generates timing events or values at a specified interval, useful for scheduling or automation in the audio graph.
+
+- [Timer Node](https://docs.switchboard.audio/nodes/timer/): The Timer node generates timing events or values at a specified interval, useful for scheduling or automation in the audio graph.
+
+### tremolo
+
+A tremolo node processes incoming audio streams by modulating the amplitude (volume) of the signal at a regular rate, creating a rhythmic pulsing or shaking effect. This effect is commonly used in music production to add movement and texture to guitars, vocals, and synthesizers. Key parameters typically include modulation rate and depth.
+
+- [Tremolo](https://docs.switchboard.audio/nodes/tremolo/): A tremolo node processes incoming audio streams by modulating the amplitude (volume) of the signal at a regular rate, creating a rhythmic pulsing or shaking effect. This effect is commonly used in music production to add movement and texture to guitars, vocals, and synthesizers. Key parameters typically include modulation rate and depth.
+
+### tts
+
+A text-to-speech (TTS) node converts written text into spoken audio, enabling voice-based interaction in applications like virtual assistants, screen readers, and automated announcements. Typical features include support for multiple languages, voice styles (e.g., male, female, neural), adjustable speaking rate, and pitch control.
+
+- [Text-to-Speech (TTS)](https://docs.switchboard.audio/nodes/tts/): A text-to-speech (TTS) node converts written text into spoken audio, enabling voice-based interaction in applications like virtual assistants, screen readers, and automated announcements. Typical features include support for multiple languages, voice styles (e.g., male, female, neural), adjustable speaking rate, and pitch control.
+
+### turn-detection
+
+A turn detection node analyzes conversational audio to determine when a speaker has finished their turn, enabling timely responses in voice AI applications. It typically uses an ML model to compute a turn-completion probability score, complementing a voice activity detector (VAD) which only signals when speech ends.
+
+- [Turn Detection](https://docs.switchboard.audio/nodes/turn-detection/): A turn detection node analyzes conversational audio to determine when a speaker has finished their turn, enabling timely responses in voice AI applications. It typically uses an ML model to compute a turn-completion probability score, complementing a voice activity detector (VAD) which only signals when speech ends.
+
+### vad
+
+Voice Activity Detector node for Switchboard Audio SDK. Detect speech in audio streams in real time. Supports SileroVAD and built-in detection.
+
+- [Voice Activity Detector (VAD)](https://docs.switchboard.audio/nodes/vad/): Voice Activity Detector node for Switchboard Audio SDK. Detect speech in audio streams in real time. Supports SileroVAD and built-in detection.
+
+### voice-activity-detector
+
+The VAD (VoiceActivityDetector) node detects the presence of human speech in the incoming audio stream.
+
+- [VAD Node](https://docs.switchboard.audio/nodes/voice-activity-detector/): The VAD (VoiceActivityDetector) node detects the presence of human speech in the incoming audio stream.
+
+### vu-meter
+
+The VUMeter node analyzes the incoming audio signal and reports its audio level (volume).
+
+- [VUMeter Node](https://docs.switchboard.audio/nodes/vu-meter/): The VUMeter node analyzes the incoming audio signal and reports its audio level (volume).
+
+### white-noise-generator
+
+The WhiteNoiseGenerator node generates white noise as its output signal.
+
+- [WhiteNoiseGenerator Node](https://docs.switchboard.audio/nodes/white-noise-generator/): The WhiteNoiseGenerator node generates white noise as its output signal.
+
+## object-type-schema
+
+JSON Schema describing the static type descriptors that Switchboard objects publish.
+
+- [Object Type Schema](https://docs.switchboard.audio/object-type-schema/): JSON Schema describing the static type descriptors that Switchboard objects publish.
+
+## objects
+
+
+### audio-node
+
+Superclass for audio nodes.
+
+- [AudioNode](https://docs.switchboard.audio/objects/audio-node/): Superclass for audio nodes.
+
+### audio-processor-node
+
+Superclass for audio nodes that have inputs and outputs.
+
+- [AudioProcessorNode](https://docs.switchboard.audio/objects/audio-processor-node/): Superclass for audio nodes that have inputs and outputs.
+
+### audio-sink-node
+
+Superclass for audio nodes that only have inputs.
+
+- [AudioSinkNode](https://docs.switchboard.audio/objects/audio-sink-node/): Superclass for audio nodes that only have inputs.
+
+### audio-source-node
+
+Superclass for audio nodes that only have outputs.
+
+- [AudioSourceNode](https://docs.switchboard.audio/objects/audio-source-node/): Superclass for audio nodes that only have outputs.
+
+### engine
+
+Superclass for engines.
+
+- [Node](https://docs.switchboard.audio/objects/engine/): Superclass for engines.
+
+### node
+
+Superclass for nodes.
+
+- [Node](https://docs.switchboard.audio/objects/node/): Superclass for nodes.
+
+### single-bus-audio-processor-node
+
+Superclass for processor nodes that have one input bus and one output bus.
+
+- [SingleBusAudioProcessorNode](https://docs.switchboard.audio/objects/single-bus-audio-processor-node/): Superclass for processor nodes that have one input bus and one output bus.
+
+### single-bus-audio-sink-node
+
+Superclass for audio nodes that only have one input.
+
+- [SingleBusAudioSinkNode](https://docs.switchboard.audio/objects/single-bus-audio-sink-node/): Superclass for audio nodes that only have one input.
+
+### single-bus-audio-source-node
+
+Superclass for audio nodes that only have one output.
+
+- [SingleBusAudioSourceNode](https://docs.switchboard.audio/objects/single-bus-audio-source-node/): Superclass for audio nodes that only have one output.
+
+### switchboard-object
+
+Superclass of all objects in the Switchboard SDK. Provides generic basic functionality.
+
+- [SwitchboardObject](https://docs.switchboard.audio/objects/switchboard-object/): Superclass of all objects in the Switchboard SDK. Provides generic basic functionality.
+
+## quick-start
+
+Let's make some noise!
+
+- [Quick start](https://docs.switchboard.audio/quick-start/): Let's make some noise!
+
+## ramping
+
+Smooth volume ramping for audio streams. Avoid clicks and pops with linear and exponential fade-in/fade-out using Switchboard Audio SDK.
+
+- [Audio Volume Ramping](https://docs.switchboard.audio/ramping/): Smooth volume ramping for audio streams. Avoid clicks and pops with linear and exponential fade-in/fade-out using Switchboard Audio SDK.
+
+## resampling
+
+What is audio resampling and when do you need it? Convert between sample rates (44.1kHz, 48kHz, 16kHz) for playback, recording, and audio processing pipelines.
+
+- [Audio Resampling Guide](https://docs.switchboard.audio/resampling/): What is audio resampling and when do you need it? Convert between sample rates (44.1kHz, 48kHz, 16kHz) for playback, recording, and audio processing pipelines.
+
+## ring-buffers
+
+What is a ring buffer and how is it used in audio processing? Circular buffer fundamentals, code examples, and implementation with Switchboard Audio SDK.
+
+- [Ring Buffers in Audio Processing](https://docs.switchboard.audio/ring-buffers/): What is a ring buffer and how is it used in audio processing? Circular buffer fundamentals, code examples, and implementation with Switchboard Audio SDK.
+
+## roadmap
+
+Switchboard Audio SDK roadmap: upcoming features, planned extensions, and platform support. See what's next for audio graph, nodes, and SDK integrations.
+
+- [Roadmap](https://docs.switchboard.audio/roadmap/): Switchboard Audio SDK roadmap: upcoming features, planned extensions, and platform support. See what's next for audio graph, nodes, and SDK integrations.
+
+## swift-api
+
+Switchboard Audio SDK API reference for Swift and Objective-C. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+- [Swift / Objective-C API](https://docs.switchboard.audio/swift-api/): Switchboard Audio SDK API reference for Swift and Objective-C. Initialize, create engines, call actions, set/get values, subscribe to events.
+
+## switchboard-object-schema
+
+JSON Schema describing the base shape shared by every Switchboard object instance.
+
+- [Object Schema](https://docs.switchboard.audio/switchboard-object-schema/): JSON Schema describing the base shape shared by every Switchboard object instance.
+
+## synchronizing-audio
+
+Learn how synchronize audio.
+
+- [Synchronizing Audio](https://docs.switchboard.audio/synchronizing-audio/): Learn how synchronize audio.
+
+## tapping-audio
+
+Accessing audio buffers in audio graph at any point.
+
+- [Tapping Audio in Audio Graphs](https://docs.switchboard.audio/tapping-audio/): Accessing audio buffers in audio graph at any point.

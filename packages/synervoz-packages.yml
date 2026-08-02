@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.npmjs.com/org/synervoz, https://github.com/switchboard-sdk, https://docs.switchboard.audio/
+notes: >-
+  Switchboard is a client-side, cross-platform audio SDK (C++ core with Swift,
+  Kotlin/Java, JavaScript/TypeScript, and React Native bindings). First-party
+  client libraries are published to npm under the @synervoz org and distributed
+  for Apple platforms via Swift Package Manager from the switchboard-sdk GitHub
+  org. Android/Flutter binaries are distributed via the versioned download
+  bundles at docs.switchboard.audio/downloads/ (no Maven Central coordinate
+  found). No first-party PyPI package was found (the PyPI "switchboard" project
+  is an unrelated feature-flipper).
+packages:
+  - language: javascript
+    registry: npm
+    name: "@synervoz/switchboard-sdk-js"
+    version: 0.0.16
+    url: https://www.npmjs.com/package/@synervoz/switchboard-sdk-js
+    install: npm install @synervoz/switchboard-sdk-js
+    description: A cross-platform SDK that simplifies audio app development and saves time.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@synervoz/switchboard-sdk-js-extensions"
+    version: 0.0.2
+    url: https://www.npmjs.com/package/@synervoz/switchboard-sdk-js-extensions
+    install: npm install @synervoz/switchboard-sdk-js-extensions
+    description: The Switchboard SDK for JavaScript and associated tools.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@synervoz/edgespeech"
+    version: 1.0.0
+    url: https://www.npmjs.com/package/@synervoz/edgespeech
+    install: npm install @synervoz/edgespeech
+    description: React Native library for on-device voice processing with Switchboard SDK.
+    official: true
+  - language: swift
+    registry: swift-package-manager
+    name: switchboard-sdk-ios
+    version: 3.2.4
+    url: https://github.com/switchboard-sdk/switchboard-sdk-ios
+    install: "Xcode > Add Package Dependency > https://github.com/switchboard-sdk/switchboard-sdk-ios"
+    description: Switchboard SDK for iOS (also used for macOS integration via SPM).
+    official: true

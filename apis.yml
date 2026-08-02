@@ -1,7 +1,31 @@
 aid: synervoz
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/synervoz.png
 name: Synervoz
-description: Synervoz is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Synervoz is a Toronto-based software company building for interactive voice and
+  video applications with complex real-time audio requirements. Its flagship
+  product, the Switchboard SDK (branded Switchboard Audio SDK), is a modular,
+  cross-platform audio engine built on a C++ core with higher-level bindings for
+  Swift, Kotlin/Java, JavaScript/TypeScript, and React Native, running on iOS,
+  Android, macOS, Windows, Linux, and Web. Switchboard exposes a hybrid audio
+  graph that connects processing nodes — acoustic echo cancellation, real-time
+  communication, speech-to-text, text-to-speech, voice activity detection, stem
+  separation, DSP and generative-audio nodes — with some nodes on-device and
+  others cloud-integrated. Developers integrate via first-party npm and Swift
+  Package Manager libraries and drive the SDK through a language-agnostic
+  JSON-RPC command/response protocol.
 url: https://raw.githubusercontent.com/api-evangelist/synervoz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Audio
+- SDK
+- Voice
+- Real-Time Communication
+- Speech
+- Developer Tools
+- Cross-Platform
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,42 @@ maintainers:
 common:
 - type: Website
   url: https://synervoz.com
+- type: DeveloperPortal
+  url: https://docs.switchboard.audio/
+- type: Documentation
+  url: https://docs.switchboard.audio/
+- type: APIReference
+  url: https://docs.switchboard.audio/api/
+- type: GettingStarted
+  url: https://docs.switchboard.audio/
+- type: Roadmap
+  url: https://docs.switchboard.audio/roadmap/
+- type: Blog
+  url: https://switchboard.audio/hub/
+- type: Support
+  url: https://switchboard.audio/contact
+- type: Pricing
+  url: https://switchboard.audio/pricing
+- type: GitHubOrganization
+  url: https://github.com/switchboard-sdk
+- type: Packages
+  url: packages/synervoz-packages.yml
+- type: SDKs
+  url: packages/synervoz-packages.yml
+- type: LLMsTxt
+  url: llms/synervoz-llms.txt
+- type: Authentication
+  url: authentication/synervoz-authentication.yml
+- type: Conventions
+  url: conventions/synervoz-conventions.yml
+- type: Lifecycle
+  url: lifecycle/synervoz-lifecycle.yml
+- type: ChangeLog
+  url: changelog/synervoz-changelog.yml
+- type: DomainSecurity
+  url: security/synervoz-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

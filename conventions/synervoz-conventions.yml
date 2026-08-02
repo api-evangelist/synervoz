@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.switchboard.audio/json-rpc-api/, https://docs.switchboard.audio/api/
+summary: >-
+  Switchboard SDK exposes a uniform, language-agnostic command/response model.
+  The same primitives (initialize, create engine, call action, set/get value,
+  subscribe to events) are surfaced identically across the C++, Swift, Kotlin,
+  and JavaScript bindings, and over a transport-agnostic JSON-RPC protocol for
+  driving the SDK from any client.
+authentication:
+  style: app-credential
+  detail: appID + appSecret supplied at SDK initialization.
+  ref: authentication/synervoz-authentication.yml
+protocol:
+  style: json-rpc
+  description: >-
+    A language-agnostic command/response protocol for driving the SDK from any
+    client or transport.
+  docs: https://docs.switchboard.audio/json-rpc-api/
+  primitives:
+    - initialize
+    - create engine
+    - call action
+    - set value
+    - get value
+    - subscribe to events
+object_model:
+  configurations: >-
+    Constructor parameters an object consumes to build itself; each has a default
+    and is part of the exported snapshot.
+  properties: >-
+    Real-time parameters that can be safely changed throughout a node's lifetime
+    and apply immediately; part of the exported snapshot.
+  docs: https://docs.switchboard.audio/guide/bring-your-own-node/
+idempotency:
+  supported: false
+  notes: No documented idempotency-key mechanism (client-side SDK, not a hosted REST surface).
+versioning:
+  ref: lifecycle/synervoz-lifecycle.yml
+notes: >-
+  No pagination, rate-limit signaling, or RFC 9457 error-envelope conventions
+  apply — Switchboard is an on-device/hybrid audio SDK rather than a paginated
+  hosted REST API.

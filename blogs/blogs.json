@@ -1,0 +1,21 @@
+{
+  "repo": "synervoz",
+  "feeds": [
+    {
+      "source": "https://docs.switchboard.audio/blog/rss.xml",
+      "feed_url": "https://docs.switchboard.audio/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://docs.switchboard.audio/roadmap/",
+      "feed_url": "https://docs.switchboard.audio/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-08-01T15:49:00Z"
+}
