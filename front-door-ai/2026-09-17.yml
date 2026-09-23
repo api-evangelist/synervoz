@@ -1,0 +1,30 @@
+# Front Door AI Index — synervoz — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: synervoz
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: synervoz.com
+  final_host: synervoz.com
+  ownership: own
+  owner: synervoz
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 12
+  host_score: 12
+  density: 14.25
+  words: 842
+  tiers:
+    agentic: 1
+    core: 11
+    model: 0
+  ambiguous: 3
+  top_terms:
+    AI: 8
+    ML: 2
+    smart: 2
+    AI agent: 1
+    agent: 1
+    machine learning: 1
